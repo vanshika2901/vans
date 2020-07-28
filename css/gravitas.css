@@ -1,0 +1,261 @@
+@media (min-width: 320px) and (max-width: 359px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 4.4rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:18rem;
+}
+}
+@media (min-width: 400px) and (max-width: 410px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 7.1rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:23.2rem;
+}
+}
+@media (min-width: 360px) and (max-width: 374px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 5.9rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:20.6rem;
+}
+}
+@media (min-width: 411px) and (max-width: 449px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 7.4rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:23.8rem;
+}
+}
+@media (min-width: 375px) and (max-width: 399px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 6.3rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:21.5rem;
+}
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 4rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:17rem;
+}
+}
+@media (min-width: 1024px) and (max-width: 1110px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 6.9rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:23rem;
+}
+}
+@media (min-width: 450px) and (max-width: 767px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 8.5rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:26.2rem;
+}
+}
+@media (min-width: 280px) and (max-width: 319px)  {
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 3.3rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:15.6rem;
+}
+}
+
+@media (min-width: 992px){
+    .pass{
+    padding-top: 2rem;
+}
+.but{
+  margin-left: 9.5rem;
+}
+#brief{
+  font-size: 1.2rem;
+}
+.card{
+  width:28rem;
+
+}
+}
+body{
+	background: url("https://wallpapercave.com/wp/wp1966328.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 20rem;
+	overflow-x: hidden;
+	padding-right: 0rem;
+}
+
+#head{
+	text-align: center;
+	margin-top: 3%;
+}
+
+#brief{
+	color: white;
+	text-align: justify;
+}
+.stro{
+	font-weight: bold;
+}
+.pass{
+	padding-top: 1rem;
+text-align: center;
+	color: white;
+}
+.seven{
+text-align: center;
+	color: white;
+}
+.but{
+	color: white;
+}
+.card{
+	max-width:28rem;
+	height: 20rem;
+}
+
+
+
+
+
+
+
+
+.image-flip:hover .backside, .image-flip.hover .backside {
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+-o-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+
+.image-flip:hover .frontside, .image-flip.hover .frontside {
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+
+
+.mainflip {
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-ms-transition: 1s;
+-moz-transition: 1s;
+-moz-transform: perspective(1000px);
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: relative;
+}
+
+.frontside, .backside {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-moz-transition: 1s;
+-moz-transform-style: preserve-3d;
+-o-transition: 1s;
+-o-transform-style: preserve-3d;
+-ms-transition: 1s;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.frontside {
+-webkit-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+z-index: 2;
+}
+
+.backside {
+-webkit-transform: rotateY(-180deg);
+-moz-transform: rotateY(-180deg);
+-o-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);
+transform: rotateY(-180deg);
+}
+
+.card, .card-img-top {
+border-radius: 0px;
+}
+
+.image-flip {
+margin-bottom:100px;
+width: 200px;
+height: 20rem;
+}
